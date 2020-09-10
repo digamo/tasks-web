@@ -13,7 +13,7 @@ import lombok.Data;
 public class Todo {
 
 	private Long id;
-	private String task;
+	private String name;
 	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private LocalDate dueDate;
 	
