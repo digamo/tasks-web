@@ -40,6 +40,7 @@
 	</div>
 	<footer class="my-5 pt-5 text-muted text-center text-small border-top">
 		<p class="mb-1">&copy; 2020 digamo DevOps</p>
+		<p class="mb-1" th:if="${version != null}" th:text="${version}" id="version" />
 	</footer>
 </body>
 
